@@ -81,8 +81,25 @@ Each ZIP code receives a **Composite Desirability Score (0–100)** based on fiv
 |---|---|
 | Tableau Public | Interactive dashboard design and visualization |
 | Microsoft Excel | Data preparation, normalization, composite score calculation |
+| Python (pandas, matplotlib, seaborn) | Exploratory data analysis and statistical visualization |
+| Jupyter Notebook | EDA notebook environment |
 | U.S. Census Bureau API | Demographic and economic data sourcing |
 | GitHub | Version control and documentation |
+
+---
+
+## 🔬 Exploratory Data Analysis
+
+An EDA notebook (`eda/suffolk_eda.ipynb`) accompanies the Tableau dashboards with deeper statistical analysis:
+
+- Distribution plots for all raw variables (income, education, crime, housing, population)
+- Correlation heatmap across all numeric features
+- Composite score distribution and top 10 ZIP rankings
+- Score component scatter plots vs. composite score
+- Income vs. crime rate bubble chart colored by composite score
+- Full ZIP code ranking table
+
+**Requirements:** `pip install pandas openpyxl matplotlib seaborn`
 
 ---
 
@@ -103,6 +120,16 @@ suffolk-county-zip-analysis/
     ├── main_dashboard.png
     └── detailed_analysis.png
 ```
+
+---
+
+## 📸 Dashboard Screenshots
+
+### Main Dashboard
+![Main Dashboard](screenshots/main_dashboard.png)
+
+### Detailed Variable Analysis
+![Detailed Analysis](screenshots/detailed_analysis.png)
 
 ---
 
