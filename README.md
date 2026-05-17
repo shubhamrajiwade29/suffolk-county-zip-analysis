@@ -95,6 +95,10 @@ suffolk-county-zip-analysis/
 ├── data/
 │   ├── suffolk_zipcode_data.xlsx        # Cleaned dataset with composite scores
 │   └── methodology_document.docx        # Full scoring methodology
+├── tableau/
+│   └── suffolk_county_zip_analysis.twb  # Tableau workbook
+├── eda/
+│   └── suffolk_eda.ipynb               # Exploratory Data Analysis notebook
 └── screenshots/
     ├── main_dashboard.png
     └── detailed_analysis.png
